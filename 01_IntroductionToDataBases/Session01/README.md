@@ -4,7 +4,7 @@
 
 #### Post-Work
 
-Challenge02:
+[Challenge02](Challenge02.sql):
 > Usando la base de datos `tienda`, escribe consultas que permitan responder las siguientes preguntas: 
 >- ¿Cuál es el nombre de los empleados con el puesto 4?
    ```sql
