@@ -1,10 +1,10 @@
-#1. Cuál es el nombre de los empledos cuyo sueldo es mayor a 10,000?
+#1. Cuál es el nombre de los empledos cuyo sueldo es mayor a 100,000?
 USE tienda;
 SHOW TABLES;
 DESCRIBE puesto;
 SELECT nombre, apellido_paterno, apellido_materno
 FROM empleado 
-WHERE id_puesto IN (SELECT id_puesto FROM puesto WHERE salario > 10000 );
+WHERE id_puesto IN (SELECT id_puesto FROM puesto WHERE salario > 100000 );
 
 #2. Cuál es la cantidad mínima y máxima de ventas de cada empleado?
 DESCRIBE venta; 
