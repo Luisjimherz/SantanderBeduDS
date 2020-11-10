@@ -1,8 +1,7 @@
 ### Session 1x04: MongoDB Fundamentals
 
 #### Post-Work
-Challenge01
->Usando la base de datos `sample_mflix`, proyecta los datos que se solicitan.\
+**Challenge01:** Usando la base de datos `sample_mflix`, proyecta los datos que se solicitan.
 > [Query 1](Challenge01/Query01.json). Fecha, nombre y texto de cada comentario
 ```JSON
 {
@@ -33,8 +32,7 @@ Challenge01
 }
 ```
 
-Challenge02
-> Usando la base de datos `sample_mflix`, agrega proyeccciones, filtros, ordenamientos y límites que permitan contestar las siguientes preguntas.\
+**Challenge02:** Usando la base de datos `sample_mflix`, agrega proyeccciones, filtros, ordenamientos y límites que permitan contestar las siguientes preguntas.
 > [Query 1.](Challenge02/Query01.json) ¿Qué comentarios ha hecho Greg Powell?
 ```JSON
 {
