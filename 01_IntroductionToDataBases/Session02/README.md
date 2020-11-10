@@ -3,7 +3,7 @@
 ### Session 1x01: SQL Fundamentals
 
 #### Work
-[Regular expressions](1x02_RegExp.sql)
+[Regular expressions](1x02_RegExp.sql)\
 [Grouping functions](1x02_GroupFun.sql)
 
 #### Post-Work
