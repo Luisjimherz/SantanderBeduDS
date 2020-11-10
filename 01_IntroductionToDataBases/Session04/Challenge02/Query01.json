@@ -1,0 +1,9 @@
+{
+ filter: {
+  name: 'Greg Powell'
+ },
+ project: {
+  name: 1,
+  text: 1
+ }
+}

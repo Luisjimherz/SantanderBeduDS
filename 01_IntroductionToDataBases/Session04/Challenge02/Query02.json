@@ -1,0 +1,16 @@
+{
+ filter: {
+  $or: [
+   {
+    name: 'Greg Powell'
+   },
+   {
+    name: 'Mercedes Tyler'
+   }
+  ]
+ },
+ project: {
+  name: 1,
+  text: 1
+ }
+}
