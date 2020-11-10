@@ -1,4 +1,4 @@
-### Session 1x01: SQL Fundamentals
+### Session 1x03: Subqueries, Joins & Views
 
 #### Work
 
