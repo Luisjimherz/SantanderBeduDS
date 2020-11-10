@@ -1,4 +1,4 @@
-### Session 1x02: Regular expressions, Grouping functions & Subqueries
+### Session 1x02: Regular expressions & Grouping functions
 
 #### Work
 
