@@ -1,4 +1,4 @@
-### Session 1x01: SQL Fundamentals
+### Session 1x02: Regular expressions, Grouping functions & Subqueries
 
 #### Work
 
