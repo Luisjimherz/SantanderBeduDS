@@ -1,6 +1,7 @@
 ### Session 1x01: SQL Fundamentals
 
 #### Work
+[Queries](1x01_Queries.sql)
 
 #### Post-Work
 
@@ -29,7 +30,7 @@
    ```
    
 #### Excercises(Optional) 
-[Excercises 1](Excercises.sql):
+[Excercises 1](Excercises.sql)
 
 
 [Back](../README.md)
