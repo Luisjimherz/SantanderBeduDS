@@ -10,5 +10,5 @@ The content of this repository belongs to the *Data Analysis path* from __BEDU__
  - [Sesión 3: Subqueries, Joins & Views](Session03/README.md) 
  - [Sesión 4: MongoDB fundamentals](Session04/README.md) 
  
- [Back](../)
+ [Back](../README.md)
  
