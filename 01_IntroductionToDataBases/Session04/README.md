@@ -3,7 +3,7 @@
 #### Post-Work
 Challenge01
 >Usando la base de datos `sample_mflix`, proyecta los datos que se solicitan.\
-> [Query 1](Challenge01/Query01.JSON). Fecha, nombre y texto de cada comentario
+> [Query 1](Challenge01/Query01.json). Fecha, nombre y texto de cada comentario
 ```JSON
 {
  project: {
@@ -13,7 +13,7 @@ Challenge01
  }
 }
 ```
-> [Query 2.](Challenge01/Query02.JSON) Título, elenco y año de cada película.
+> [Query 2.](Challenge01/Query02.json) Título, elenco y año de cada película.
 ```JSON
 {
  project: {
@@ -23,7 +23,7 @@ Challenge01
  }
 }
 ```
-> [Query 3.](Challenge01/Query03.JSON) Nombre y contraseña de cada usuario.
+> [Query 3.](Challenge01/Query03.json) Nombre y contraseña de cada usuario.
 ```JSON
 {
  project: {
@@ -35,7 +35,7 @@ Challenge01
 
 Challenge02
 > Usando la base de datos `sample_mflix`, agrega proyeccciones, filtros, ordenamientos y límites que permitan contestar las siguientes preguntas.\
-> [Query 1.](Challenge02/Query01.JSON) ¿Qué comentarios ha hecho Greg Powell?
+> [Query 1.](Challenge02/Query01.json) ¿Qué comentarios ha hecho Greg Powell?
 ```JSON
 {
  filter: {
@@ -47,7 +47,7 @@ Challenge02
  }
 }
 ```
-> [Query 2.](Challenge02/Query02.JSON) ¿Qué comentarios han hecho Greg Powell o Mercedes Tyler?
+> [Query 2.](Challenge02/Query02.json) ¿Qué comentarios han hecho Greg Powell o Mercedes Tyler?
 ```JSON
 {
  filter: {
@@ -66,7 +66,7 @@ Challenge02
  }
 }
 ```
-> [Query 3.](Challenge02/Query03.JSON) ¿Cuál es el máximo número de comentarios en una película?
+> [Query 3.](Challenge02/Query03.json) ¿Cuál es el máximo número de comentarios en una película?
 ```JSON
 {
  project: {
@@ -78,7 +78,7 @@ Challenge02
  limit: 1
 }
 ```
-> [Query 4.](Challenge02/Query04.JSON) ¿Cuál es título de las cinco películas más comentadas?
+> [Query 4.](Challenge02/Query04.json) ¿Cuál es título de las cinco películas más comentadas?
 ```JSON
 {
  project: {
