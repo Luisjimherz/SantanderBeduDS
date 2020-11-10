@@ -29,6 +29,7 @@
    ```
    
 #### Excercises(Optional) 
+[Excercises 1](Excercises.sql):
 
 
 [Back](../README.md)
