@@ -1,5 +1,7 @@
 ### Session 1x04: MongoDB Fundamentals
 
+#### Work
+
 #### Post-Work
 **Challenge01:** Usando la base de datos `sample_mflix`, proyecta los datos que se solicitan.
 > [Query 1](Challenge01/Query01.json). Fecha, nombre y texto de cada comentario
@@ -89,4 +91,5 @@
  limit: 5
 }
 ```
-#### Excercises(Optional) 
+#### Excercises(Optional)
+[Excercises 4](Excercises/README.md)
