@@ -1,0 +1,5 @@
+{
+ filter: {
+  house_rules: RegExp('.*no parties.*', i)
+ }
+}

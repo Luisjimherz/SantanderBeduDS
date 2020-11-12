@@ -1,0 +1,7 @@
+{
+ filter: {
+  house_rules: RegExp('.*no smoking.*|.*no parties.*', i)
+ },
+ project: {
+  house_rules: 1
+ }
