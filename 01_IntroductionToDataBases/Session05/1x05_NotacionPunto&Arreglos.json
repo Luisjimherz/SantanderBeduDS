@@ -1,0 +1,47 @@
+{
+ Example1: {
+  Query: "Places in Spain (country nested into address)",
+  filter: {
+   'address.country': 'Spain'
+  },
+  project: {
+   name: 1,
+   summary: 1
+  }
+ }, 
+ Example2: {
+  Query: "Places with ",
+  filter: {
+   amenities: {
+    $in: [
+     'Kitchen'
+    ]
+   }
+  },
+  project: {
+   name: 1,
+   summary: 1
+  }
+ },
+ Example3: {
+  Query: "Putting all together",
+  filter: {
+   price: {
+    $lte: 100
+   },
+   'address.country_code': 'ES',
+   'review_scores.review_scores_rating': {
+     $gte: 50
+    },
+   amenities: {
+    $in: [
+     'Elevator'
+     ]
+   }
+  },
+  project: {
+   name: 1,
+   summary: 1
+  }
+ }
+}
