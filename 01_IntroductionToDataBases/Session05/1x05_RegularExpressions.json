@@ -1,0 +1,46 @@
+{Example1: {
+  Query: "Amenities near to a metro station",
+  filter: {
+   transit: RegExp('Metro')
+  },
+  project: {
+   transit: 1
+  }
+ },
+ Example2: {
+  Query: "Amenities near to a metro station (case insensitive)",
+  filter: {
+   transit: RegExp('Metro', i)
+  },
+  project: {
+   transit: 1
+  }
+ },
+ Example3: {
+  Query: "emails which start with an m", 
+  filter: {
+   email: RegExp('^m')
+  },
+  project: {
+   email: 1
+  }
+ },
+ Example4: {
+  Query: "emails which belongs to @cats.com domain"
+  filter: {
+   email: RegExp('@cats.com$')
+  },
+  project: {
+   email: 1
+  }
+ },
+ Example5: {
+  Query: "emails containing the string ag"
+  filter: {
+   email: RegExp('.*ag.*')
+  },
+  project: {
+   email: 1
+  }
+ }
+}
