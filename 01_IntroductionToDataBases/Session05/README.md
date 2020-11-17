@@ -21,6 +21,7 @@
  }
 }
 ´´´
+
 > [Query 3.](Challenge01/Query03.json) Propiedades que no permitan fumadores
 ´´´JSON
 {
@@ -29,6 +30,7 @@
  }
 }
 ´´´
+
 > [Query 4.](Challenge01/Query04.json) Propiedades que no permitan fiests ni fumadores
 ´´´JSON
 {
