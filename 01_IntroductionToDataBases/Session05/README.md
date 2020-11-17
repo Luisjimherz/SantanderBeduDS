@@ -5,13 +5,14 @@
 #### Post-Work
 **Challenge01:** Usando la colección sample_airbnb.listingsAndReviews:
 > [Query 1](Challenge01/Query01.json). Propiedades que no permiten fiestas
-```JSON
+´´´JSON
 {
  filter: {
   house_rules: RegExp('.*no parties.*', i)
  }
 }
-```
+´´´
+
 > [Query 2.](Challenge01/Query02.json) Propiedades que admitan mascotas
 '''JSON
 {
@@ -66,7 +67,7 @@
 }
 '''
 
-**Challenge003** Usando la colección sample_airbnb.listingsAndReviews:
+**Challenge03** Usando la colección sample_airbnb.listingsAndReviews:
 > [Query 1](Challenge03/Query01.json) Mediante el uso de agregaciones, encuentra
 >el número de publicaciones que tienen una conexión a Internet Wifi o Ethernet
 '''JSON
