@@ -5,6 +5,7 @@
 #### Post-Work
 **Challenge01:** Usando la colección sample_airbnb.listingsAndReviews:
 > [Query 1](Challenge01/Query01.json). Propiedades que no permiten fiestas
+
 ´´´JSON
 {
  filter: {
@@ -14,6 +15,7 @@
 ´´´
 
 > [Query 2.](Challenge01/Query02.json) Propiedades que admitan mascotas
+
 ´´´JSON
 {
  filter: {
@@ -23,6 +25,7 @@
 ´´´
 
 > [Query 3.](Challenge01/Query03.json) Propiedades que no permitan fumadores
+
 ´´´JSON
 {
  filter: {
@@ -32,6 +35,7 @@
 ´´´
 
 > [Query 4.](Challenge01/Query04.json) Propiedades que no permitan fiests ni fumadores
+
 ´´´JSON
 {
  filter: {
@@ -44,8 +48,9 @@
 
 **Challenge02** Usando la colección sample_airbnb.listingsAndReviews:
 > [Query 1](Challenge02/Query01.json) Filtra las publicaciones que tengan 50
-> o más comentarios, con valoración de 80 o superior, con conexión a internet y
-> que estén en Brazil
+o más comentarios, con valoración de 80 o superior, con conexión a internet y
+que estén en Brazil
+
 ´´´JSON
 {
  filter: {
@@ -71,7 +76,8 @@
 
 **Challenge03** Usando la colección sample_airbnb.listingsAndReviews:
 > [Query 1](Challenge03/Query01.json) Mediante el uso de agregaciones, encuentra
->el número de publicaciones que tienen una conexión a Internet Wifi o Ethernet
+el número de publicaciones que tienen una conexión a Internet Wifi o Ethernet
+
 ´´´JSON
 {
   project: {
