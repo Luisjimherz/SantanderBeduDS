@@ -4,7 +4,7 @@ Las consultas que realices se realizarán sobre la base de sample_training.
 
 Todas las consultas que realices deberás manternerlas dentro del MongoDB compass. Para hacer esto da clic en el botón con los puntos ... y en Toogle Query History. Busca la última consulta y agregala a tus favoritos presionando el ícono con la estrella.
 
-* [Consulta 1](.\Query01.json) Obtén los datos de contacto de cada compañía.
+* [Consulta 1](Query01.json) Obtén los datos de contacto de cada compañía.
 * [Consulta 2](.\Query02.json) Obtén la fuente de cada tweet.
 * [Consulta 3](.\Query03.json) Obtén el nombre de todas las compañías fundadas en octubre.
 * [Consulta 4](.\Query04.json) Obtén Obtén el nombre de todas las compañías fundadas en 2008.
@@ -17,3 +17,5 @@ Todas las consultas que realices deberás manternerlas dentro del MongoDB compas
 * [Consulta 11](.\Query11.json) Obtén la empresa con el mayor número de empleados.
 * [Consulta 12](.\Query12.json) Obtén la historia más comentada.
 * [Consulta 13](.\Query13.json) Obtén la historia menos comentada.
+
+[Back](\..)
