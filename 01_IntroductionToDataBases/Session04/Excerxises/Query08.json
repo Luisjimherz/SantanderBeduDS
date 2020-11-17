@@ -1,0 +1,11 @@
+{
+ filter: {
+  number_of_employees: {
+   $gt: 50
+  }
+ },
+ project: {
+  name: 1,
+  number_of_employees: 1
+ }
+}

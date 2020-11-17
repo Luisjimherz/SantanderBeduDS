@@ -1,0 +1,9 @@
+{
+ filter: {
+  founded_year: 2008
+ },
+ project: {
+  name: 1,
+  founded_year: 1
+ }
+}

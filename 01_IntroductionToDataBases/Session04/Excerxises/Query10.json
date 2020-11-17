@@ -1,0 +1,15 @@
+{
+ filter: {
+  number_of_employees: {
+   $ne: null
+  }
+ },
+ project: {
+  name: 1,
+  number_of_employees: 1
+ },
+ sort: {
+  number_of_employees: 1
+ },
+ limit: 1
+}
