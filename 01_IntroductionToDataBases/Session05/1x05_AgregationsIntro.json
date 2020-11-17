@@ -1,0 +1,11 @@
+{
+  Example1: {
+    Query: "Propiedad con mayor número de servicios",
+    Pipeline: {
+      addFields: {servicios: {$size: "$amenities"}}
+      project: {name: 1, servicios: 1, _id: 0}
+      sort: {servicios: -1}
+      limit: 1
+    }
+  }
+}

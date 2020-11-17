@@ -1,0 +1,14 @@
+{
+  project: {
+    name: 1,
+    amenities: 1,
+    _id: 0
+  },
+  match: {
+    amenities: {$in: ["Wifi", "Ethernet"]}
+  },
+  group: {
+    _id: null,
+    cuenta:{$sum: 1}
+  }
+}
