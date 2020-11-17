@@ -1,0 +1,7 @@
+{
+ project: {
+  name: 1,
+  email_address: 1,
+  phone_number: 1
+ }
+}
