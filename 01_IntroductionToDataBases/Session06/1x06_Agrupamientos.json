@@ -1,17 +1,18 @@
-{
-  $match: {
-    property_type: "House",
-    bedrooms: {$gte: 1}
-  },
-  $addField: {
-    costo_recamara: { divide: ["$price", "$bedrooms"]}
-  },
-  $group: {
-    _id: null,
-    recamaras: {$sum: 1},
-    total: {$sum: "$costo_recamara"}
-  },
-  $addField: {
-    costo_promedio: {$divide: ["$total", "$recamaras"]}
-  }
+[{$match: {           //filtra Houses y bedrooms
+  property_type: "House",
+  bedrooms: {$gte: 1}
 }
+}, {$addFields: {     //añade nuevos campos
+  costo_recamara: {$divide: ["$price", "$bedrooms"]}
+}
+}, {$group: {         //agrupa
+  _id: null,          //por documentos
+  recamaras: {
+    $sum: 1
+  },
+  total: {
+    $sum: "$costo_recamara"
+  }
+}}, {$addFields: {
+  costo_promedio: {$divide: ["$total", "$recamaras"]}
+}}]
