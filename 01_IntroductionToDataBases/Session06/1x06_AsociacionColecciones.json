@@ -1,3 +1,19 @@
-{
-
-}
+[{$lookup: {
+  from: 'movies',
+  localField: 'movie_id',
+  foreignField: '_id',
+  as: 'pelicula'
+}}, {$addFields: {
+  num_movies: {$size: "$pelicula"}
+}}, {$match: {
+  num_movies: {$gte: 1}
+}}, {$addFields: {
+  pelicula_objeto: {$arrayElemAt: ["$pelicula", 0]}
+}}, {$addFields: {
+  pelicula_nombre: "$pelicula_objeto.title"
+}}, {$project: {
+  _id:0,
+  pelicula_nombre:1,
+  name: 1,
+  text: 1
+}}]
