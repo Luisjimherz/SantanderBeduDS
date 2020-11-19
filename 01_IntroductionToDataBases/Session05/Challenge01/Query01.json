@@ -1,5 +1,5 @@
 {
  filter: {
-  house_rules: RegExp('.*no parties.*', i)
+  house_rules: RegExp('.*not? part(ie|y)s.*', i)
  }
 }
