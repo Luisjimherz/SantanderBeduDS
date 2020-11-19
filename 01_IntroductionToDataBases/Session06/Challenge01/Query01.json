@@ -1,4 +1,4 @@
-{
+[{
   $match: {
     property_type: "House",
     bedrooms: {$gte: 1}
@@ -14,4 +14,4 @@
   $addFields:{
     costo_promedio: {$divide: ["$total", "$recamaras"]}
   }
-}
+}]
