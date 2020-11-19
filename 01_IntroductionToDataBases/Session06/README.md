@@ -2,9 +2,9 @@
 
 #### Work
 
-[1x06 Agrupamientos](1x06_Agrupamientos.json)
++ [Agrupamientos](1x06_Agrupamientos.json)
 
-[1x06 Asociación de colecciones](1x07_AsociacionColecciones.json)
++ [Asociación de colecciones](1x07_AsociacionColecciones.json)
 
 #### Post-Work
 [Challenge01](Challenge01.json) Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo promedio por habitación por país de las propiedades de tipo casa.
