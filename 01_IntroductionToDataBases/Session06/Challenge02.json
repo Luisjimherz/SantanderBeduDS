@@ -1,14 +1,17 @@
 [{$lookup: {
-  from: 'comments',
+  from: 'users',
   localField: 'email',
   foreignField: 'email',
-  as: 'comentarios'
+  as: 'usuario'
 }}, {$addFields: {
-  numero_comentarios: {$size: "$comentarios"}
-}}, {$match: {
-  numero_comentarios: {$gte: 1}
+  usuario_objeto: {$arrayElemAt: ["$usuario", 0]}
+}}, {$addFields: {
+  password: "$usuario_objeto.password"
 }}, {$project: {
-  _id: 0,
+  _id:0,
+  pelicula_nombre:1,
   name: 1,
-  email: 1
+  email: 1,
+  text: 1,
+  password: 1
 }}]
