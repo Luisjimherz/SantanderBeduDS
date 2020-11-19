@@ -3,6 +3,7 @@
 #### Work
 
 [1x06 Agrupamientos](1x06_Agrupamientos.json)
+
 [1x06 Asociación de colecciones](1x07_AsociacionColecciones.json)
 
 #### Post-Work
