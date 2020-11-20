@@ -13,6 +13,7 @@
 
 
 #### Excercises(Optional)
+[Excercises 6](Excercises/README.md)
 
 
 [Back](../README.md)
