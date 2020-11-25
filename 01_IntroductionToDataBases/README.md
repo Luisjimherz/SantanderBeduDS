@@ -11,6 +11,6 @@ The content of this repository belongs to the *Data Analysis path* from __BEDU__
  - [Session 1x04: MongoDB fundamentals](Session04/README.md)
  - [Session 1x05: Queries with MongoDB](Session05/README.md)
  - [Session 1x06: Agregaciones ](Session06/README.md)
- - [Session 1x07: Local databases confinguration](session07/README.md)
+ - [Session 1x07: Local databases confinguration](Session07/README.md)
 
  [Back](../README.md)
