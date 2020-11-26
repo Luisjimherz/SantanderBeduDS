@@ -11,7 +11,9 @@ CREATE TABLE IF NOT EXISTS users (
 );
 
 # Eliminar tabla
-DROP users;
+DROP TABLE movies;
 
 # ELiminar base de datos
 DROP DATABASE _luisferjhz;
+
+SHOW TABLES;
