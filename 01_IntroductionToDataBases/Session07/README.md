@@ -35,11 +35,19 @@ CREATE TABLE IF NOT EXISTS ratings (
 * [Challenge02](Challenge02.sql)
 1. Usando como base el archivo movies.dat, limpiarlo e importar los datos en la tabla movies creada en el Reto 1.
 
+```SQL
+SELECT * FROM movies LIMIT 10;
+```
+
 ![](movies_uploaded_workbench.png)
 
 2. Usando como base el archivo ratings.dat, limpiarlo e importar los datos en la tabla ratings creada en el Reto 2.
 
+```SQL
+SELECT * FROM ratings LIMIT 10;
+```
 
+![](ratings_uploaded_workbench.png)
 
 #### Excercises(Optional)
 [Excercises 7](Excercises/README.md)
