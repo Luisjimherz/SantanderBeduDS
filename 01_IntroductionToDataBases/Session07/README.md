@@ -49,8 +49,10 @@ SELECT * FROM ratings LIMIT 10;
 
 ![](ratings_uploaded_workbench.png)
 
-#### Excercises(Optional)
-[Excercises 7](Excercises/README.md)
+* **Challenge03**
 
+Se deberá de crear colecciones e importar los datos de los archivos movies.csv y ratings.csv.Se deberá de crear colecciones e importar los datos de los archivos movies.csv y ratings.csv.
 
-[Back](../README.md)
+![](movies_uploaded_compass.png)
+
+![](ratings_uploaded_compass.png)
